@@ -56,10 +56,19 @@ const onClickHandler = (page)=>{
 </template>
 
 <style>
+#componentContainer{
+  gap: 20px;
+}
 #componentContainer li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #000 !important;
-  padding: 10px 15px;
-  font-size: 40px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  font-size: 30px;
 }
 </style>
 
