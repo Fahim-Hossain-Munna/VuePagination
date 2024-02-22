@@ -1,0 +1,26 @@
+{
+  "name": "count",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.2",
+    "bootstrap-vue": "^2.23.1",
+    "vue": "^3.4.19",
+    "vue-awesome-paginate": "^1.1.46",
+    "vuejs-paginate-next": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^4.4.5"
+  }
+}
