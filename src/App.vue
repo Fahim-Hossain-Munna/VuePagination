@@ -70,5 +70,13 @@ const onClickHandler = (page)=>{
 
   font-size: 30px;
 }
+#componentContainer li .active-page{
+  border: 1px solid #fff !important;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: red;
+  color: aliceblue;
+}
 </style>
 
